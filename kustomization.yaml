@@ -1,0 +1,4 @@
+#/non-production/acm-ciso-root/kustomization.yaml
+# specify resources to be synced or rendered
+resources:
+- "helm-charts" # renders sector specific helm-charts
