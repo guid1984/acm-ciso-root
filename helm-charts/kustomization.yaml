@@ -1,0 +1,8 @@
+# usage example for helm charts for a Citi Sector
+# this file contains helm charts only applicable at Sector level
+helmCharts:
+ - name: prometheus
+   repo: https://prometheus-community.github.io/helm-charts
+   version: 14.3.0
+   releaseName: my-prometheus
+   namespace: ciso-monitoring
