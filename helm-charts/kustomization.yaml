@@ -2,7 +2,7 @@
 
 helmCharts:
  - name: kube-state-metrics
-   repo: https://artifactregistry.googleapis.com/v1beta2/gmp-preview-demo/us-central1/citi-helm-charts/packages/kube-state-metrics
+   repo: https://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/kube-state-metrics
    version: 4.7.0
    releaseName: my-kube-state-metrics
    namespace: ciso-165665
