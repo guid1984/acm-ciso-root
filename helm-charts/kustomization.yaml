@@ -1,8 +1,8 @@
 # usage example for helm charts for a Citi Sector
 # this file contains helm charts only applicable at Sector level
 helmCharts:
- - name: prometheus
-   repo: https://prometheus-community.github.io/helm-charts
-   version: 14.3.0
-   releaseName: my-prometheus
+ - name: kube-state-metrics
+   repo: oci://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/kube-state-metrics
+   version: 4.7.0
+   releaseName: my-kube-state-metrics
    namespace: ciso-165665
