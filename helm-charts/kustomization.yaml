@@ -1,8 +1,8 @@
-# usage example for helm charts for a Citi Sector
-# this file contains helm charts only applicable at Sector level
+# usage example for helm charts for CISO
+
 helmCharts:
  - name: kube-state-metrics
-   repo: oci://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/kube-state-metrics:4.7.0
+   repo: us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/kube-state-metrics:4.7.0
    version: 4.7.0
    releaseName: my-kube-state-metrics
    namespace: ciso-165665
