@@ -2,7 +2,9 @@
 
 helmCharts:
  - name: prometheus-node-exporter
-   repo: oci://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/
+   repo: oci://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/prometheus-node-exporter
    version: 3.1.0
    releaseName: my-prometheus-node-exporter
    namespace: ciso-165665
+helmGlobals:
+ configHome: HELM_EXPERIMENTAL_OCI=1
