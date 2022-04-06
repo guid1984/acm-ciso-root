@@ -1,8 +1,8 @@
 # usage example for helm charts for CISO
 
 helmCharts:
- - name: kube-state-metrics
-   repo: oci://us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/kube-state-metrics
-   version: 4.7.0
-   releaseName: my-kube-state-metrics
+ - name: prometheus-node-exporter
+   repo: us-central1-docker.pkg.dev/gmp-preview-demo/citi-helm-charts/prometheus-node-exporter
+   version: 3.1.0
+   releaseName: my-prometheus-node-exporter
    namespace: ciso-165665
